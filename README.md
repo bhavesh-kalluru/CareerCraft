@@ -28,7 +28,6 @@ An intelligent desktop assistant that helps job seekers by leveraging the power 
 | Environment    | `python-dotenv`    |
 
 ---
-
 ## 📂 Project Structure
 
 job_ai_assistant/
