@@ -8,8 +8,8 @@ from PyPDF2 import PdfReader
 load_dotenv()
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
-st.set_page_config(page_title="AI Job Assistant", layout="centered")
-st.title("🧠 AI Job Assistant")
+st.set_page_config(page_title="CarrerCraft", layout="centered")
+st.title("🧠 CarrerCraft 🧠")
 
 # Upload or paste
 uploaded_file = st.file_uploader("📄 Upload Resume or Job Description", type=["pdf", "txt"])
